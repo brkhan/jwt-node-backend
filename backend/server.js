@@ -75,7 +75,7 @@ app.use('/auth', auth.router)
 
 app.listen(3001)
 
-mongoose.connect('mongodb://sysadmin:Password123@ds113098.mlab.com:13098/pssocial', (err) => {
+mongoose.connect('mongodb://sysadmin:********@ds113098.mlab.com:13098/pssocial', (err) => {
     if (!err) {
         console.log('connected to mongo');
     }
